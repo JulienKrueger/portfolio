@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.socials a{
+    margin: 20px;
+    color: black;
+}
+
+.logo{
+    width: 100px;
+}
+
+.bouton{
+    background-color: #7843E9;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.bouton2{
+    background-color: gray;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+:root{
+  --primary: #7843E9;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.cinquante{
+    width: 50%;
+}

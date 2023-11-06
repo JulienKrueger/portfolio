@@ -1,12 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julien portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mon portfolio</h1> 
-    <p></p> 
+    <!-- DEBUT HEADER -->
+    <header class="flex">
+        <div>
+            <img class="logo" src="Image/Logo jb.jpg" alt="">
+        </div>
+        <nav>
+            <a href="#a-propos">A PROPOS</a>
+            <a href="#mes-projets">MES PROJETS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        
+        <div class="socials">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    
+    <!-- PRESENTATION -->
+        <div class="text-center">
+            <h1>JULIEN BONNY</h1>
+            <p>Développeur web full-stack</p>
+            <a class="bouton" href="">A PROPOS</a>
+        </div>
+
+        <!-- A PROPOS DE MOI -->
+          <div class="text-center" id="a-propos">
+            <h2>A PROPOS DE MOI</h2>
+            <p>Vous trouverz ici plus d'information sur moi, ce que je fais et mes
+                compétences actuelles principalement en termes de programmation et de 
+                développement web 
+            </p>
+            <div class="flex">
+                <div class="cinquante">
+                    <h3>Apprendre à me connaître</h3>
+                    <p>Je suis un développeur Web Frontend qui construit le Front-end des 
+                        sites Web et des applications Web qui mène au succès du produit global. Découvrez 
+                        certains de mes travaux dans la section Projets.
+                        J'aime aussi partager du contenu lié à ce que j'ai appris au fil des
+                        années dans 
+                        le développement Web afin qu'il puisse aider d'autres personnes de la
+                        communauté des
+                        développeurs. N'hésitez pas à vous connecter ou à me suivre sur mon Linkedin où je 
+                        publie du contenu utile lié au développement et à la programmation Web.
+                        Je suis ouvert aux opportunités d'emploi où je peux contribuer, apprendre et évoluer.
+                        Si vous avez une bonne opportunité correspondant à mes compétences
+                        et à mon expérience, n'hésitez pas à me contacter.</p>
+                </div>
+                <div class="cinquante">
+                    <h3>Mes compétences</h3>
+                    <p class="bouton2">HTML</p>
+                    <p class="bouton2">CSS</p>
+                    <p class="bouton2">JAVA SCRIPT</p>
+                </div>
+            </div>
+        
+
+    </div>
+
+    <!-- MES PROJETS -->
+    <div class="text-center" id="mes-projets">
+        <h2>MES PROJETS</h2>
+        <p>Vous trouverez ici quelques-uns des projets personnels et clients que j'ai
+            crées
+        </p>
+    </div>
+
+    <!-- CONTACT -->
+     <div class="text-center" id="contact">
+        <h2>CONTACT</h2>
+    </div>
+
+     <form>
+
+        <!-- Grid -->
+        <div class="grid">
+      
+          <!-- Markup example 1: input is inside label -->
+          <label for="firstname">
+            First name
+            <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+          </label>
+      
+          <label for="lastname">
+            Last name
+            <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+          </label>
+      
+        </div>
+      
+        <!-- Markup example 2: input is after label -->
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="Email address" required>
+        <small>We'll never share your email with anyone else.</small>
+      
+        <!-- Button -->
+        <div class="text-right">
+        <button type="submit" class="bouton">SOUMETTRE</button>
+        </div>
+      
+      </form>
+
+
 </body>
 </html>

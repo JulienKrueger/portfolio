@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,109 +9,206 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- DEBUT HEADER -->
-    <header class="flex">
+    <div class="flex align-center fixe">
         <div>
-            <img class="logo" src="Image/Logo jb.jpg" alt="">
+            <a href=""> <img class="logo" src="Image/Logo jb.jpg" alt=""></a>
+           
         </div>
         <nav>
             <a href="#a-propos">A PROPOS</a>
             <a href="#mes-projets">MES PROJETS</a>
             <a href="#contact">CONTACT</a>
         </nav>
-        
+
         <div class="socials">
             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
             <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
-    </header>
-    
+    </div>
+    <div style="height:90px;"></div>
     <!-- PRESENTATION -->
+    <div class="bg-triangle">
         <div class="text-center">
-            <h1>JULIEN BONNY</h1>
+            <h1 class="titre-size">MON PORTFOLIO</h1>
             <p>Développeur web full-stack</p>
-            <a class="bouton" href="">A PROPOS</a>
+            <a class="bouton" href="#mes-projets">MES PROJETS</a>
         </div>
+    </div>
 
-        <!-- A PROPOS DE MOI -->
-          <div class="text-center" id="a-propos">
+    <!-- A PROPOS DE MOI -->
+    <div class="fond-gris">
+        <div class="text-center" id="a-propos">
             <h2>A PROPOS DE MOI</h2>
             <p>Vous trouverz ici plus d'information sur moi, ce que je fais et mes
-                compétences actuelles principalement en termes de programmation et de 
-                développement web 
+                compétences actuelles principalement en termes de programmation et de
+                développement web
             </p>
             <div class="flex">
                 <div class="cinquante">
                     <h3>Apprendre à me connaître</h3>
-                    <p>Je suis un développeur Web Frontend qui construit le Front-end des 
-                        sites Web et des applications Web qui mène au succès du produit global. Découvrez 
+                    <p>Je suis un développeur Web Frontend qui construit le Front-end des
+                        sites Web et des applications Web qui mène au succès du produit global. Découvrez
                         certains de mes travaux dans la section Projets.
-                        J'aime aussi partager du contenu lié à ce que j'ai appris au fil des
-                        années dans 
+                    </p>
+
+                    <p>J'aime aussi partager du contenu lié à ce que j'ai appris au fil des
+                        années dans
                         le développement Web afin qu'il puisse aider d'autres personnes de la
                         communauté des
-                        développeurs. N'hésitez pas à vous connecter ou à me suivre sur mon Linkedin où je 
+                        développeurs.
+                    </p>
+
+                    <p>N'hésitez pas à vous connecter ou à me suivre sur mon Linkedin où je
                         publie du contenu utile lié au développement et à la programmation Web.
                         Je suis ouvert aux opportunités d'emploi où je peux contribuer, apprendre et évoluer.
                         Si vous avez une bonne opportunité correspondant à mes compétences
-                        et à mon expérience, n'hésitez pas à me contacter.</p>
+                        et à mon expérience, n'hésitez pas à me contacter.
+                    </p>
+                    <div class="bouton-margin"><a class="bouton" href="#contact">CONTACT</a>
+                    </div>
                 </div>
                 <div class="cinquante">
                     <h3>Mes compétences</h3>
                     <p class="bouton2">HTML</p>
                     <p class="bouton2">CSS</p>
                     <p class="bouton2">JAVA SCRIPT</p>
+                    <div>
+                        <img class="img-html" src="Image/Image HTML.png" alt="">
+                    </div>
                 </div>
             </div>
-        
-
+        </div>
     </div>
+
+
+
 
     <!-- MES PROJETS -->
     <div class="text-center" id="mes-projets">
         <h2>MES PROJETS</h2>
         <p>Vous trouverez ici quelques-uns des projets personnels et clients que j'ai
-            crées
-        </p>
+            crées </p>
+
+        <!-- EXEMPLE PROJETS -->
+
+        <!-- AMAZON -->
+        <div class="flex">
+            <div class="cinquante">
+                <img class="img-projet" src="Image/Amazon (2).png" alt="">
+            </div>
+            <div class="cinquante">
+                <h3>AMAZON</h3>
+
+                <p>J'ai recréé l'interface de l'application Web officielle de AMAZON parce que j'ai été attiré
+                    par leur magnifique interface utilisateur. Ce fut une expérience formidable pour moi de construire
+                    l'intégralité du frontend.
+                </p>
+            </div>
+        </div>
+
+        <!-- ZALANDO -->
+        <div class="flex">
+            <div class="cinquante">
+                <img class="img-projet" src="Image/Zalando.png" alt="">
+            </div>
+
+            <div class="cinquante">
+                <h3>ZALANDO</h3>
+
+                <p>J'ai recréé l'interface de l'application Web officielle de ZALANDO parce que j'ai été attiré
+                    par leur magnifique interface utilisateur. Ce fut une expérience formidable pour moi de construire
+                    l'intégralité du frontend.
+                </p>
+            </div>
+        </div>
+
+        <!-- CDISCOUNT -->
+
+        <div class="flex">
+            <div class="cinquante">
+                <img class="img-projet" src="Image/Cdiscount.png" alt="">
+            </div>
+
+            <div class="cinquante">
+                <h3>CDISCOUNT</h3>
+
+                <p>J'ai recréé l'interface de l'application Web officielle de CDISCOUNT parce que j'ai été attiré
+                    par leur magnifique interface utilisateur. Ce fut une expérience formidable pour moi de construire
+                    l'intégralité du frontend.
+                </p>
+            </div>
+        </div>
+
+
+
     </div>
 
     <!-- CONTACT -->
-     <div class="text-center" id="contact">
+    <div class="text-center " id="contact">
         <h2>CONTACT</h2>
     </div>
 
-     <form>
+    <div class="container">
+        <form>
 
-        <!-- Grid -->
-        <div class="grid">
-      
-          <!-- Markup example 1: input is inside label -->
-          <label for="firstname">
-            First name
-            <input type="text" id="firstname" name="firstname" placeholder="First name" required>
-          </label>
-      
-          <label for="lastname">
-            Last name
-            <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
-          </label>
-      
-        </div>
-      
-        <!-- Markup example 2: input is after label -->
-        <label for="email">Email address</label>
-        <input type="email" id="email" name="email" placeholder="Email address" required>
-        <small>We'll never share your email with anyone else.</small>
-      
-        <!-- Button -->
-        <div class="text-right">
-        <button type="submit" class="bouton">SOUMETTRE</button>
-        </div>
-      
-      </form>
+            <!-- Grid -->
+            <div class="grid">
+
+                <!-- Markup example 1: input is inside label -->
+                <label for="firstname">
+                    First name
+                    <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                </label>
+
+                <label for="lastname">
+                    Last name
+                    <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                </label>
+
+            </div>
+
+            <!-- Markup example 2: input is after label -->
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Email address" required>
+            <small>We'll never share your email with anyone else.</small>
+
+            <!-- Button -->
+            <div class="text-right">
+                <button type="submit" class="bouton">SOUMETTRE</button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer data-theme="dark" class="fond-noir flex">
+        <!-- <div class="flex"> -->
+            <div class="trente text-center">
+                <h3>ADRESSE</h3>
+                <p>10 rue jean monnet</p>
+                <p>SAINT-ETIENNE</p>
+            </div>
+
+            <div class="trente text-center">
+                <h3>CONTACT</h3>
+                <p>06.12.32.78.56</p>
+                <p>Mon mail</p>
+            </div>
+
+            <div class="trente text-center">
+                <h3>HORAIRES</h3>
+                <p>du lundi au vendredi</p>
+                <p>de 8h à 12 et de 14h à 18h</p>
+
+            </div>
+        <!-- </div> -->
+    </footer>
 
 
 </body>
+
 </html>

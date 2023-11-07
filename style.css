@@ -8,11 +8,27 @@
     flex-wrap: wrap;
     justify-content:space-around ;
 }
-
+.fixe{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+/* header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+} */
+.align-center{
+    align-items: center;
+}
 nav a{
     text-decoration: none;
     margin: 20px;
     color: black;
+}
+
+nav a:hover, .socials a:hover{
+    color:#7843E9;
 }
 
 .socials a{
@@ -22,6 +38,11 @@ nav a{
 
 .logo{
     width: 100px;
+    
+}
+
+.titre-size{
+    font-size: 70px;
 }
 
 .bouton{
@@ -38,12 +59,12 @@ nav a{
 }
 
 .bouton2{
-    background-color: gray;
+    background-color: gainsboro;
     color: black;
     border-radius: 10px;
     text-align: center;
-    font-size: 28px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 5px;
     width: 250px;
     display: inline-block;
     margin-top: 20px;
@@ -63,5 +84,52 @@ nav a{
 }
 
 .cinquante{
-    width: 50%;
+    width: 47%;
+}
+
+.trente{
+    width: 30%;
+}
+
+.fond-noir{
+    background-color: black;
+}
+
+.fond-gris{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    padding: 60px;
+}
+
+h2{
+    margin-top: 40px;
+}
+.bg-triangle{
+    background-image: url(./Image/bg-triangles.png);
+    background-size: 30%;
+    background-repeat: repeat;
+}
+
+.bouton-margin{
+    margin-top: 20px;
+}
+
+.img-html{
+    width: 350px;
+}
+
+.img-projet{
+    width: 500px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#mes-projets p{
+    text-align: left;
 }
